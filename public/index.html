@@ -15,8 +15,14 @@
             <input type="text" id="username" name="username" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
+            <label for="role">Role selection:</label>
+               <select name="role" id="role">
+                 <option value="">Select your role</option>
+                 <option value="student">Student</option>
+                 <option value="lecturer">Lecturer</option>
+               </select>
             <button type="button" onclick="submitLogin()">Login</button>
-            <button type="button" onclick="call_REST_API_Hello()">Hello</button>
+
         </form>
         <div id="additional-info">
             <div id="message"></div>

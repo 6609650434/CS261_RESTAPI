@@ -61,3 +61,32 @@ button:hover, button:focus {
     margin-top: 20px;
     text-align: center;
 }
+
+/* Style for the label */
+label {
+    display: block; /* Make the label a block element */
+    margin: 10px 0 5px; /* Add margin for spacing */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Make the font bold */
+    color: #333; /* Dark gray color for the text */
+}
+
+/* Style for the select dropdown */
+select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for better spacing */
+    margin-bottom: 20px; /* Space below the select */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    font-size: 16px; /* Font size */
+    color: #333; /* Dark gray text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Change border color on focus */
+select:focus {
+    border-color: #ff4d4d; /* Change border color to red on focus */
+    outline: none; /* Remove default outline */
+}
